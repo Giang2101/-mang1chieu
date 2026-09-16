@@ -1,1 +1,9 @@
-# -mang1chieu
+int mang1chieu::timkiem(int x) {
+	int k = -1;
+	for (int i = 0; i < spt; i++){
+		if (a[i] == x) {
+			k = i;
+			break; 
+		} 
+	} 
+	return k; 
